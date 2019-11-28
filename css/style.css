@@ -26,7 +26,6 @@ body{
 	margin: auto;
 }
 
-
 .header{
 	display: flex;
 
@@ -57,8 +56,22 @@ body{
 }
 
 #banner{
-	background-image: url(../img/portfolio.jpg);
-	background-size: cover;
+	background: url(../img/banner_1.jpg);
+	background-size: ;
 	background-repeat: no-repeat;
-	background-position: center;
+}
+
+.banner{
+	padding: 160px 0px;
+}
+
+.bnr_content h2{
+	color: white;
+	text-align: right;
+	padding: 25px 50px;
+	font-size: 45px;
+}
+.bnr_content p{
+	color: white;
+	text-align: right;
 }
